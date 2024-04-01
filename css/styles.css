@@ -30,7 +30,8 @@ a {
 }
 
 section,
-nav,
+.main-header_navigation-links,
+.main-header_social_links,
 .main-header_logo {
     border: 2px solid blue;
 }
@@ -57,9 +58,20 @@ nav,
     align-items: center;
 }
 
+.main-header_logo:hover a{
+    color: red;
+}
+
+.main-header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main-header_navigation-links {
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 
 .main-header_navigation-link {
@@ -67,6 +79,29 @@ nav,
     font-size: 1.6rem;
     color: black;
     font-weight: 400;
+}
+
+.main-header_navigation-link:hover a{
+    color: red;
+}
+
+.main-header_social_links {
+    display: flex;
+    align-items: center;
+}
+
+.social-logo{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+    transform: translateY(-5px);
+}
+
+.social-logo:hover{
+    fill: red;
 }
 
 /* Hero-Section ---------------------- */
