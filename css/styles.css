@@ -19,6 +19,12 @@ footer,
   border: red 2px solid;
 }
 
+section,
+footer,
+.hero-section {
+    margin: 20px 0 20px 0;
+}
+
 /* Navbar ------------------------------- */
 nav {
     position: fixed;
