@@ -6,13 +6,21 @@
     font-family: inherit;
 }
 
+:root {
+    --primary-color: #4182FA; /* Primary color */
+    --secondary-color: #34d399; /* Secondary color */
+    --accent-color: #fbbf24; /* Accent color */
+    --background-color: #f3f4f6; /* Background color */
+    --text-color: #333; /* Text color */
+  }
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: var(--background-color);
 }
 
 ul {
@@ -105,3 +113,18 @@ section,
 }
 
 /* Hero-Section ---------------------- */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 80px;
+}
+
+.hero-content {
+    text-align: center;
+    color: var(--text-color);
+}
+
+
