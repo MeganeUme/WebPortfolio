@@ -78,12 +78,6 @@ nav.sticky {
     background-color: #ddd;
 }
 
-.hero-text {
-    font-size: 60px;
-    min-height: 100vh;
-    line-height: 100vh;
-}
-
 /* Footer ------------------------------------- */
 footer {
     text-align: center;
