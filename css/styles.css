@@ -1,88 +1,72 @@
 /* General ------------------------------ */
-/* Reset styles */
-html, body {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
-.container {
-    margin: 0 calc(5% - 20px);
-    text-align: center;
+ul {
+    list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Borders for debugging */
+.main-header,
+.main-container {
+    border: 2px solid red;
+}
+
+section,
 nav,
-section,
-footer,
-.hero-section {
-  border: red 2px solid;
+.main-header_logo {
+    border: 2px solid blue;
 }
 
-section,
-footer,
-.hero-section {
-    margin: 20px 0 20px 0;
-}
 
-/* Navbar ------------------------------- */
-nav {
+/* Main Header ------------------- */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Ensure the navbar spans the entire width of the viewport */
-    z-index: 1000;
-    height: 80px;
-    line-height: 80px;
-    text-align: right;
-    padding-right: 20px; /* Add padding to the right to create space between links and right edge */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin-right: 20px;
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding: 10px;
-}
-
-.github-logo {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-nav a:hover {
-    color: orange;
-}
-/* Sticky Navbar ----------------------------- */
-nav.sticky {
-    position: fixed;
-    top: 0;
     width: 100%;
+    height: 80px;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+.main-header_logo {
+    display: flex;
+    align-items: center;
 }
 
-/* Hero section ------------------------------ */
-.hero-section {
-    margin-top: 80px;
-    height: 100vh;
-    background-color: #ddd;
+.main-header_navigation-links {
+    display: flex;
+    align-items: center;
 }
 
-/* Footer ------------------------------------- */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-origin: #ddd;
-    margin-top: 20px
+.main-header_navigation-link {
+    padding: 1.3rem 2rem;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 400;
 }
+
+/* Hero-Section ---------------------- */
