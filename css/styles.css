@@ -8,8 +8,7 @@ html, body {
 }
 
 .container {
-    margin: 0 auto 20px auto;
-    max-width: calc(100% - 40px);
+    margin: 0 calc(5% - 20px);
     text-align: center;
 }
 
