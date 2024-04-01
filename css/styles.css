@@ -56,6 +56,14 @@ nav ul li a {
     padding: 10px;
 }
 
+.github-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a:hover {
+    color: orange;
+}
 /* Sticky Navbar ----------------------------- */
 nav.sticky {
     position: fixed;
