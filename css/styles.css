@@ -20,19 +20,22 @@ footer,
   border: red 2px solid;
 }
 
-.hero-section {
-    min-height: 100vh;
-}
-
 /* Navbar ------------------------------- */
-
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the navbar spans the entire width of the viewport */
+    z-index: 1000;
     height: 80px;
     line-height: 80px;
     text-align: right;
+    background-color: aqua;
+    padding-right: 20px; /* Add padding to the right to create space between links and right edge */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-nav ul{
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -48,8 +51,17 @@ nav ul li a {
     padding: 10px;
 }
 
+/* Sticky Navbar ----------------------------- */
+nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /* Hero section ------------------------------ */
 .hero-section {
+    margin-top: 80px;
+    height: 100vh;
     background-color: #ddd;
 }
 
