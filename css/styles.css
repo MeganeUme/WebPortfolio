@@ -168,6 +168,7 @@ section,
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 15px;
 }
 
 .information {
@@ -238,4 +239,93 @@ section,
 .skills-name {
     color: var(--text-color);
     font-size: 1rem;
+}
+
+/* Project section */
+.project-section {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.project-section-container {
+    margin: 0 10%;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-title {
+    color: var(--text-color);
+}
+
+/* Project contet base normal */
+.project-content {
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 0;
+    width: 100%;
+}
+
+.project-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.project-image img {
+    border-radius: 15px;
+}
+
+.project-detail {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 40%;
+}
+
+.project-detail h3 {
+    color: var(--text-color);
+    margin-bottom: 3rem;
+}
+
+.project-detail p {
+    color: var(--white);
+}
+
+/* Project content base reverse */
+.project-content-reverse {
+    background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 0;
+    width: 100%;
+}
+
+.project-image-reverse {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.project-detail-reverse {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 40%;
 }
