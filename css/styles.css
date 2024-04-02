@@ -243,14 +243,13 @@ section,
 
 /* Project section */
 .project-section {
-    background-color: white;
+    background-color: var(--background-color);
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .project-section-container {
     margin: 0 10%;
-    background-color: var(--secondary-color);
     border-radius: 15px;
     padding: 2%;
     align-items: center;
@@ -265,7 +264,6 @@ section,
 
 /* Project contet base normal */
 .project-content {
-    background-color: red;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -273,6 +271,7 @@ section,
     width: 100%;
 }
 
+/* Project content shared */
 .project-image {
     align-items: center;
     display: flex;
@@ -284,9 +283,10 @@ section,
     border-radius: 15px;
 }
 
+
 .project-detail {
     align-items: center;
-    color: #fff;
+    color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -300,32 +300,31 @@ section,
 }
 
 .project-detail p {
-    color: var(--white);
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+}
+
+.project-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.project-button:hover {
+    color: var(--background-color); /* Text color on hover */
+    background-color: var(--primary-color); /* Border color on hover */
 }
 
 /* Project content base reverse */
 .project-content-reverse {
-    background-color: red;
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin: 6rem 0;
     width: 100%;
-}
-
-.project-image-reverse {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 60%;
-}
-
-.project-detail-reverse {
-    align-items: center;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-    width: 40%;
 }
