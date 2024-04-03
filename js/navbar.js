@@ -1,14 +1,8 @@
-window.onscroll = function() {stickyNavbar()};
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.querySelector('.hamburger-menu');
+    const navbar = document.querySelector('.header-navbar');
 
-var navbar = document.querySelector("nav");
-var heroSection = document.querySelector(".hero-section");
-
-var sticky = heroSection.offsetTop;
-
-function stickyNavbar() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-    } else {
-        navbar.classList.remove("sticky");
-    }
-}
+    menuBtn.addEventListener('click', function() {
+        navbar.classList.toggle('active');
+    });
+});

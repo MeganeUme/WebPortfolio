@@ -117,6 +117,53 @@ a {
     fill: var(--accent-color);
 }
 
+
+@media screen and (max-width: 1000px) {
+    .header-navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: rgba(96, 76, 132, 0.4);
+        z-index: 999;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .bar {
+        width: 30px;
+        height: 4px;
+        background-color: var(--text-color);
+    }
+
+    .header-navbar.active {
+        display: flex;
+    }
+
+    .header-navigation-links {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .header-navigation-link {
+        padding: 1rem 0;
+        font-size: 1.4rem;
+    }
+}
+
 /* Hero-Section ---------------------- */
 .hero-section {
     height: 100vh;
