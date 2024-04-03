@@ -205,8 +205,9 @@ a {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: .5rem;
+    min-width: 150px;
     width: 100%;
 }
 
@@ -215,15 +216,16 @@ a {
     background: var(--background-color);
     border-radius: 10px;
     display: flex;
-    flex: 0 1 18%;
+    min-width: 150px;
     padding: 2rem 1rem;
     height: 60px;
     justify-content: space-evenly;
-    margin: 1%;
+    margin: 0.5rem;
 }
 
 .skills-icon {
     color: var(--primary-color);
+    margin-right: 0.5rem;
     font-size: 50px;
 }
 
@@ -231,6 +233,8 @@ a {
     color: var(--text-color);
     font-size: 1rem;
 }
+
+
 
 /* Project section */
 .project-section {
