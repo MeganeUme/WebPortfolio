@@ -110,11 +110,8 @@ a {
     fill: var(--text-color);
 }
 
-.header-social-link:hover svg {
-    transform: translateY(-5px);
-}
-
 .header-social-link:hover svg{
+    transform: translateY(-5px);
     fill: var(--accent-color);
 }
 
@@ -193,6 +190,11 @@ a {
         width: 100%;
         margin-right: 1rem;
         fill: var(--text-color);
+    }
+
+    .header-social-link:hover svg {
+        transform: none;
+        fill: var(--accent-color);
     }
 }
 
