@@ -141,11 +141,18 @@ a {
 /* About me section ----------------------- */
 .about-section {
     background-color: var(--background-color);
-    padding: 10% 5%;
+    padding: 5% 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.about-container {
+    margin: 0 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .about-content {
     display: grid;
@@ -172,6 +179,28 @@ a {
     margin-bottom: 5%;
     margin-top: 10%;
 }
+
+.information-text {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.information-text strong {
+    color: var(--primary-color);
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .portrait-img {
+        margin-bottom: 20px;
+    }
+}
+
 
 /* Skills section ------------------------------- */
 .skills-section {
