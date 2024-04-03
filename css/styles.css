@@ -389,16 +389,49 @@ a {
     width: 100%;
 }
 
+/* References Section */
+.references-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.references-container {
+    margin: 0 10%;
+    padding: 2rem 5%;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.references-content h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.reference {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.reference h3 {
+    color: var(--white);
+}
+
 /* Contact section */
 .contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 10%;
+    padding: 5% 0;
 }
 
 .contact-form-container {
     width: 100%;
+    margin: 0 10%;
     padding: 5% 5%;
     font-size: 2rem;
     color: var(--text-color);
