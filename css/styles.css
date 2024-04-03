@@ -32,10 +32,16 @@ a {
     text-decoration: none;
 }
 
-.main-container {
+.container {
     margin: 0;
-    max-width: 100%;
-    width: 100%;
+    max-width: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 5px solid red;
+}
+
+.header {
+    border: 5px solid blue;
 }
 
 
@@ -252,6 +258,7 @@ a {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 6rem 0;
     width: 100%;
 }
@@ -261,10 +268,12 @@ a {
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 45%;
+    margin-bottom: 2rem;
 }
 
 .project-image img {
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -301,9 +310,32 @@ a {
 }
 
 .project-button:hover {
-    color: var(--background-color); /* Text color on hover */
-    background-color: var(--primary-color); /* Border color on hover */
+    color: var(--background-color);
+    background-color: var(--primary-color);
 }
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .project-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .project-image,
+    .project-detail {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .project-content-reverse {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
 
 /* Project content base reverse */
 .project-content-reverse {
@@ -323,17 +355,19 @@ a {
 }
 
 .contact-form-container {
+    width: 100%;
     padding: 5% 5%;
-    font-size: 40px;
+    font-size: 2rem;
     color: var(--text-color);
     background-color: var(--secondary-color);
     border-radius: 30px;
     text-align: center;
     margin-bottom: 10px;
+    overflow: auto;
 }
 
 .contact-form {
-    width: 600px;
+    width: 100%;
     text-align: center;
 }
 
