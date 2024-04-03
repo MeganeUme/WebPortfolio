@@ -269,7 +269,6 @@ a {
     display: flex;
     justify-content: center;
     width: 45%;
-    margin-bottom: 2rem;
 }
 
 .project-image img {
@@ -290,7 +289,7 @@ a {
 
 .project-detail h3 {
     color: var(--text-color);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .project-detail p {
@@ -319,6 +318,8 @@ a {
     .project-content {
         flex-direction: column; 
         align-items: center;
+        background-color: var(--secondary-color);
+        border-radius: 15px;
     }
 
     .project-image,
@@ -333,6 +334,15 @@ a {
     .project-content-reverse {
         flex-direction: column; 
         align-items: center;
+        background-color: var(--secondary-color);
+        border-radius: 15px;
+    }
+    .project-content-reverse .project-image {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .project-content-reverse .project-detail {
+        margin-top: 2rem;
     }
 }
 
