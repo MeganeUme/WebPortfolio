@@ -37,12 +37,8 @@ a {
     max-width: none;
     overflow: hidden;
     box-sizing: border-box;
-    border: 5px solid red;
 }
 
-.header {
-    border: 5px solid blue;
-}
 
 
 /* Main Header ------------------- */
@@ -284,6 +280,10 @@ a {
 
 .project-title {
     color: var(--text-color);
+}
+
+.project-detail strong {
+    color: var(--primary-color);
 }
 
 /* Project contet base normal */
