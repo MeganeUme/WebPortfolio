@@ -40,7 +40,7 @@ a {
 
 
 /* Main Header ------------------- */
-.main-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,46 +56,46 @@ a {
     box-sizing: border-box;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-.main-header_logo {
+.header_logo {
     display: flex;
     align-items: center;
 }
 
-.main-header_logo a {
+.header_logo a {
     color: var(--text-color);
 }
 
-.main-header_logo:hover a{
+.header_logo:hover a{
     color: var(--accent-color);
 }
 
-.main-header_navbar {
+.header-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.main-header_navigation-links {
+.header-navigation-links {
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
 
-.main-header_navigation-link {
+.header-navigation-link {
     padding: 1.3rem 2rem;
     font-size: 1.6rem;
     font-weight: 400;
 }
 
-.main-header_navigation-link a {
+.header-navigation-link a {
     color: var(--text-color);
 }
 
-.main-header_navigation-link:hover a{
+.header-navigation-link:hover a{
     color: var(--accent-color);
 }
 
-.main-header_social_links {
+.header-social-links {
     display: flex;
     align-items: center;
 }
