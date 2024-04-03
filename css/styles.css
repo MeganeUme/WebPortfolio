@@ -38,23 +38,6 @@ a {
     width: 100%;
 }
 
-/* Borders for debugging */
-.main-header,
-.main-container {
-    border: 2px solid red;
-}
-
-.hero-section {
-    border: 4px solid #34d399;
-}
-
-section,
-.main-header_navigation-links,
-.main-header_social_links,
-.main-header_logo {
-    border: 2px solid blue;
-}
-
 
 /* Main Header ------------------- */
 .main-header {
