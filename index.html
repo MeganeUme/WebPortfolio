@@ -156,11 +156,27 @@
         <!-- Projects END =========================================================================================================== -->
 
         <!-- Contacts START =========================================================================================================== -->
-        <section>
-            <article id="contacts">
-                <img src="images/image.jpg" alt="Contact image">
-                <p>CONTACT FORM</p>
-            </article>
+        <section id="contact" class="contact-section">
+            <div class="contact-form-container">
+                <h2>Contact Me</h2>
+
+
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/mjvnazzk" method="POST" onsubmit="return submitForm(event)">
+                    <div class="contact-form-field">
+                        <input type="text" placeholder="Full Name" id="name" class="contact-item" autocomplete="off" required>
+                    </div>
+                    <div class="contact-form-field">
+                        <input type="text" placeholder="Email Address" id="email" class="contact-item" autocomplete="off" required>
+                    </div>
+                    <div class="textarea-form-field">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here" class="contact-item" autocomplete="off" required></textarea>
+                    </div>
+                    <button type="submit">Submit message</button>
+                </form>
+        
+                <div id="form-message"></div>                
+
+            </div>
         </section>
         <!-- Contacts END =========================================================================================================== -->
 
@@ -170,5 +186,6 @@
         </footer>
         <!-- Footer END =========================================================================================================== -->
     </div>
+    <script src="js/contact_form.js"></script>
 </body>
 </html>
