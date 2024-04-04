@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: inherit;
 }
 
 :root {
@@ -20,7 +19,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     background-color: var(--background-color);
 }
 
