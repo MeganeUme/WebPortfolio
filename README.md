@@ -1,4 +1,4 @@
-# Web Portfolio README
+# Web Portfolio
 
 ## Overview
 
