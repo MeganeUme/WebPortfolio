@@ -27,7 +27,7 @@ Here, I showcase some of my notable projects. Each project is typically presente
 In the references section, I may include testimonials or quotes from previous clients, colleagues, or mentors. This helps establish credibility and trust with visitors.
 
 ### 7. Contact Form
-The contact form allows visitors to get in touch with me easily. JavaScript is utilized here for input validation to ensure that the user inputs correct information before submitting the form. Additionally, JavaScript handles the form submission, possibly sending the form data via email.
+The contact form allows visitors to get in touch with me easily. JavaScript is utilized here for input validation to ensure that the user inputs correct information before submitting the form. Additionally, JavaScript handles the form submission, possibly sending the form data via email using web3forms api
 
 ### 8. Footer
 The footer section typically contains additional navigation links, social media icons, copyright information, or any other relevant details. It serves as a closing note to the website.
