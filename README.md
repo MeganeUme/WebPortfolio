@@ -4,6 +4,10 @@
 
 This repository contains the source code for my personal web portfolio. The website is designed as a single-page layout, consisting of various sections to showcase my work, skills, and information about me. It's built using HTML, CSS, and JavaScript. 
 
+## Live Page
+
+The live version of this web portfolio is deployed [here](https://meganeume.github.io/WebPortfolio/) on GitHub Pages.
+
 ## Basic Structure
 
 The web portfolio follows a simple structure with the following sections:
@@ -31,10 +35,6 @@ The contact form allows visitors to get in touch with me easily. JavaScript is u
 
 ### 8. Footer
 The footer section typically contains additional navigation links, social media icons, copyright information, or any other relevant details. It serves as a closing note to the website.
-
-## Live Page
-
-The live version of this web portfolio is deployed [here](https://meganeume.github.io/WebPortfolio/) on GitHub Pages.
 
 ## Technologies Used
 
